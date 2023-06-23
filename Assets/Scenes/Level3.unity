@@ -7909,7 +7909,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 19, y: -10, z: 0}
+  - first: {x: 21, y: -10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
@@ -7929,7 +7929,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 19, y: -8, z: 0}
+  - first: {x: 21, y: -8, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 4
@@ -8272,7 +8272,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -23, y: -12, z: 0}
-  m_Size: {x: 43, y: 27, z: 1}
+  m_Size: {x: 45, y: 27, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -8380,13 +8380,9 @@ CompositeCollider2D:
       - X: 185000000
         Y: 135000000
       - X: 185000000
-        Y: -105000000
-      - X: 145000000
-        Y: -105000000
-      - X: 145000000
-        Y: -125000000
+        Y: -65000000
       - X: 205000000
-        Y: -125000000
+        Y: -65000000
     - - X: -155000000
         Y: -105000000
       - X: -195000000
@@ -8459,18 +8455,32 @@ CompositeCollider2D:
         Y: -75000000
       - X: 135000000
         Y: -75000000
+    - - X: 225000000
+        Y: -65000000
+      - X: 205000000
+        Y: -65000000
+      - X: 205000000
+        Y: -105000000
+      - X: 225000000
+        Y: -105000000
+    - - X: 205000000
+        Y: -105000000
+      - X: 145000000
+        Y: -105000000
+      - X: 145000000
+        Y: -125000000
+      - X: 205000000
+        Y: -125000000
   m_CompositePaths:
     m_Paths:
     - - {x: -19.500029, y: 11.5}
       - {x: -19.500029, y: 15.5}
       - {x: -21.5, y: 15.499971}
       - {x: -21.499971, y: 11.5}
-    - - {x: 20.499971, y: -12.5}
+    - - {x: 20.499971, y: -6.5}
       - {x: 20.499971, y: 13.5}
       - {x: 18.5, y: 13.499971}
-      - {x: 18.499971, y: -10.5}
-      - {x: 14.5, y: -10.50003}
-      - {x: 14.500029, y: -12.5}
+      - {x: 18.500029, y: -6.5}
     - - {x: -15.500029, y: -12.5}
       - {x: -15.500029, y: -10.5}
       - {x: -19.5, y: -10.49997}
@@ -8507,6 +8517,14 @@ CompositeCollider2D:
       - {x: 13.499971, y: -5.5}
       - {x: 11.5, y: -5.500029}
       - {x: 11.50003, y: -7.5}
+    - - {x: 22.499971, y: -10.5}
+      - {x: 22.499971, y: -6.5}
+      - {x: 20.5, y: -6.500029}
+      - {x: 20.500029, y: -10.5}
+    - - {x: 20.499971, y: -12.5}
+      - {x: 20.499971, y: -10.5}
+      - {x: 14.5, y: -10.50003}
+      - {x: 14.500029, y: -12.5}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -8880,7 +8898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557021733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17, y: -7.69, z: 0}
+  m_LocalPosition: {x: 18.1, y: -9.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
