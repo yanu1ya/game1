@@ -70,8 +70,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        _animator.SetBool("IsGrounded", false);
-        _isJumping = true;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            _animator.SetBool("IsGrounded", false);
+            _isJumping = true;
+        }
     }
 
     private IEnumerator HandleDeath()
