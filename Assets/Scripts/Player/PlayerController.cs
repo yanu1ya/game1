@@ -47,7 +47,6 @@ public class PlayerController : MonoBehaviour
     // Fixed is called every fixed framerate frame
     private void FixedUpdate()
     {
-
         HandleRunning();
         HandleJumping();
     }
@@ -60,10 +59,13 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        _animator.SetBool("IsGrounded", true);
-        _isJumping = false;
-        _jumpInvervalCounter = JumpInterval;
-        //_jumpReleased = false;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            _animator.SetBool("IsGrounded", true);
+            _isJumping = false;
+            _jumpInvervalCounter = JumpInterval;
+            //_jumpReleased = false;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
