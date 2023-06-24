@@ -8,11 +8,9 @@ public class StartController : MonoBehaviour
 {
     [SerializeField] RectTransform _mainMenu;
     [SerializeField] RectTransform _loadMenu;
-    //public int Level;
     
     public void Play()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene("Level1");
     }
 

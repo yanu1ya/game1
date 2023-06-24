@@ -16,16 +16,4 @@ public class FinalScene : MonoBehaviour
         _playerRB.bodyType = RigidbodyType2D.Static;
         _animator.SetBool("IsEnd", true);
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
