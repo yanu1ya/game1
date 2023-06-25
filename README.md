@@ -1,6 +1,6 @@
 # The game \ Гра \ Гра без назви
 
-## Game aspect ratio - 16:9 (black bars if other); keyboard needed
+## Game aspect ratio - 16:9 (black bars if other); android version
 
 ### Character sprites: IWBTB (without gun)
 ### Environment sprites: IWBTG
