@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Fist : MonoBehaviour
 {
     [SerializeField] AudioSource _audioSource;
     [SerializeField] Transform _transform;
     [SerializeField] BoxCollider2D _boxCollider;
+    [SerializeField] Tilemap _tilemap;
     bool _triggered;
     float speed = 50;
 
@@ -16,6 +18,7 @@ public class Fist : MonoBehaviour
         _triggered = true;
         _audioSource.Play();
         _boxCollider.enabled = false;
+        _tilemap.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
