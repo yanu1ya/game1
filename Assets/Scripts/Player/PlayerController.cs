@@ -99,8 +99,8 @@ public class PlayerController : MonoBehaviour
 
     private void HandleKeyboardInput()
     {
-        _horizontal = Input.GetAxis("Horizontal");
-        _vertical = Input.GetAxis("Vertical");
+        _horizontal = SimpleInput.GetAxis("Horizontal");
+        _vertical = SimpleInput.GetAxis("Vertical");
     }
 
     private void UpdateVariables()
